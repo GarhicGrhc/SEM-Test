@@ -1,0 +1,57 @@
+.student-timetable-container {
+    margin: 2em;
+    width: 100%;
+}
+
+.attendance-main-box {
+    width: 100%;
+    margin-top: 2em;
+
+}
+
+.student-timetable-container .timetable-header{
+    justify-content: space-between;
+    color: var(--primary-color);
+}
+
+.student-timetable-container .btn-outlined{
+    gap: 0.6em;
+    width: fit-content;
+}
+
+.timetable-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 6px 0px rgb(243, 243, 243);
+}
+
+.timetable-table .thead th {
+    padding: 0.75em;
+    background: var(--grey-bg);
+}
+
+.timetable-table td {
+    padding: 1em 0em;
+    color: var(--text-color);
+    font-size: 0.9em;
+}
+
+.student-timetable-container .hallticket-disabled {
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    /* background-color: var(--white); */
+    background: transparent;
+    pointer-events: none;
+}
+
+.timetable-table .timetable-row td {
+    padding: 1.25em 0em;
+}
+
+.timetable-table .timetable-row {
+    border: 1px solid var(--grey-bg);
+}

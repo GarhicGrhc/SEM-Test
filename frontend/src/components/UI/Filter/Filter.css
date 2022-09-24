@@ -1,0 +1,26 @@
+/* .selectbox {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    flex: 1;
+} */
+
+.filter-comp {
+  flex: 1;
+  text-align: center;
+}
+
+.filter-comp .filterSearch-SelectInput {
+  width: 10em;
+  text-align: left;
+}
+
+.filterSearch-SelectInput label {
+  background-color: rgb(253, 253, 253);
+  padding-right: 0.3em;
+  top: -0.5em;
+}
+
+.filter-comp .filterSearch-SelectInput label[data-shrink="true"] {
+  top: 0;
+}

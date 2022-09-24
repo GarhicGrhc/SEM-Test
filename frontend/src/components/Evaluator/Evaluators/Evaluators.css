@@ -1,0 +1,75 @@
+.eval-attendance-main {
+    width: 100%;
+}
+
+.eval-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.eval-button {
+    text-decoration: none;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+.eval-main {
+    margin: 2em;
+    width: 100%;
+}
+
+.eval-table-wrapper {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+
+.eval-table-wrapper .thead th {
+    padding: 0.75em;
+    background: var(--grey-bg);
+}
+
+.eval-table-wrapper td {
+    padding: 0.75em;
+    color: var(--text-color);
+    font-size: 0.9em;
+}
+
+.eval-table-wrapper .coding-table-row {
+    border: 1px solid var(--grey-bg);
+}
+
+
+
+
+
+.eval-attendance-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+
+.eval-attendance-table .eval-attendance-thead th {
+    padding: 0.75em;
+    background: var(--grey-bg);
+}
+
+.eval-table-attendance- td {
+    padding: 0.75em;
+    color: var(--text-color);
+    font-size: 0.9em;
+}
+
+.eval-attendance-table .eval-attendance-table-row {
+    border: 1px solid var(--grey-bg);
+}

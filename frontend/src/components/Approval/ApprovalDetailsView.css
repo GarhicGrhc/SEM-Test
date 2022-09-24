@@ -1,0 +1,148 @@
+.ApprovalDetailsView {
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.ApprovalDetailsView .approve-user-info {
+  gap: 1em;
+}
+
+.approve-user-info .back-btn {
+  position: absolute;
+  left: 0;
+  top: 2em;
+  cursor: pointer;
+}
+
+.approve-user-avatar {
+  position: relative;
+  padding: 1em;
+  padding-top: 2em;
+}
+
+.ApprovalDetailsView .details-profile-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.approve-avatar {
+  background-color: var(--grey-bg);
+  padding: 0.5em;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: var(--light-shadow);
+}
+
+.approve-avatar img {
+  filter: var(--svg-grey);
+}
+
+.approve-user-title {
+  color: var(--text-color);
+  text-align: center;
+  flex-direction: column;
+}
+
+.approve-user-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0.5em;
+}
+
+.approve-user-data {
+  font-size: 0.9em;
+}
+
+.approve-buttons {
+  padding: 1em 0;
+  margin-top: 0.5em;
+}
+
+.approve-btn {
+  border: none;
+  outline: none;
+  margin-right: 1.5em;
+  padding: 0.3em 0.7em 0.3em 0;
+  width: 100px;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approve-btn img {
+  filter: var(--svg-white);
+}
+
+.approve-btn.green {
+  background-color: var(--strong-green);
+  color: #fff;
+  font-weight: bolder;
+  fill: #fff;
+}
+.approve-btn.red {
+  background-color: var(--strong-red);
+  color: #fff;
+  font-weight: bolder;
+}
+
+.approve-btn.green-active {
+  margin-right: 0;
+  background-color: transparent;
+  cursor: default;
+  color: var(--strong-green);
+}
+
+.approve-btn.green-active img {
+  filter: var(--svg-green);
+}
+
+.approve-btn.red-active {
+  margin-right: 0;
+  background-color: transparent;
+  cursor: default;
+  color: var(--strong-red);
+}
+
+.approve-btn.red-active img {
+  filter: var(--svg-red);
+}
+
+.approve-form {
+  flex-direction: column;
+}
+
+.approve-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1em;
+  column-gap: 1em;
+  margin-bottom: 2em;
+}
+
+.approve-form {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.approve-form h3 {
+  margin: 1em 0;
+  width: 100%;
+  position: relative;
+  /* left: 4em; */
+}
+
+.approveRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(247, 247, 247);
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  width: 425px;
+}
+
+.approveRow span {
+  color: var(--text-color);
+}

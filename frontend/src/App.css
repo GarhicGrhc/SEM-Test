@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  /* box-sizing: border-box; */
+}
+
+/* CSS BUG TESTING CODE */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+/* CSS BUG TESTING CODE */
+
+:root {
+  --primary-gradient: linear-gradient(180deg, #2f98ff 0%, #004586 100%);
+  --secondary-gradient: linear-gradient(180deg, #2f98ff 0%, #016fd6 100%);
+  --color-secondary: "#d5d5d5";
+  --primary-color: #1e8bf5;
+  --text-color: #747474;
+  /* --text-color: #808080; */
+  --light-grey: #afafaf;
+  /* --grey-bg: #f4f4ff; */
+  --grey-bg: #f1f1f1;
+  --dark-grey: #5b5b5b;
+
+  /* main-bg affects Filter background */
+  --main-bg:rgb(252, 252, 252); 
+
+  --strong-red: #e21717;
+  --strong-green: #4dc514;
+  --red: #d54747;
+  --white: #fff;
+  --black: #333;
+  --light-primary: rgba(31, 143, 255, 0.1);
+  --light-red: rgba(226, 23, 23, 0.555);
+  --light-shadow: 0px 2px 6px 0px rgb(243 243 243);
+
+  --svg-red: invert(27%) sepia(93%) saturate(7486%) hue-rotate(357deg)
+    brightness(97%) contrast(114%);
+
+  --svg-blue: invert(46%) sepia(94%) saturate(2597%) hue-rotate(191deg)
+    brightness(95%) contrast(101%);
+
+  --svg-grey: invert(60%) sepia(14%) saturate(20%) hue-rotate(337deg)
+    brightness(90%) contrast(84%);
+
+  --svg-green: invert(61%) sepia(41%) saturate(1596%) hue-rotate(59deg)
+    brightness(97%) contrast(89%);
+
+  --svg-white: invert(92%) sepia(100%) saturate(0%) hue-rotate(202deg)
+    brightness(106%) contrast(106%);
+
+  font-family: "Lato", sans-serif;
+}
+
+table {
+  background-color: #fff;
+}
+
+label {
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-bg);
+  /* overflow-y: auto;
+  scroll-behavior: smooth; */
+  font-size: 93%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: left;
+  font-size: 1em;
+}
+
+.btn:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.btn-outlined {
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  transition: 200ms ease-in-out;
+  /* background-color: var(--white); */
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-outlined:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-outlined-green {
+  text-decoration: none;
+  color: var(--strong-green);
+  border: 1px solid var(--strong-green);
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-green {
+  text-decoration: none;
+  color: var(--strong-green);
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background-color: var(--strong-green);
+  color: var(--white);
+  outline: none;
+  border: none;
+}
+
+.btn-outlined-green:hover {
+  background-color: var(--strong-green);
+  color: var(--white);
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  color: var(--strong-red);
+  border: 1px solid var(--strong-red);
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.btn-outlined-red:hover {
+  background-color: var(--strong-red);
+  color: var(--white);
+}
+
+/* .MuiTypography-root {
+  color: var(--text-color);
+} */
+
+.section {
+  display: flex;
+  width: 100%;
+}
+
+.section:nth-child(2) {
+  flex: 1 1 0;
+}
+
+.section-content {
+  background: rgb(216, 216, 216);
+}
+
+/* MUI Select Label fix  */
+ /* .MuiFormControl-root .MuiInputLabel-root { */
+  /* background-color: var(--white) !important; */
+/* } */
+
+.MuiFormControl-root .MuiInputLabel-root[data-shrink="true"] {
+  top: 0 !important;
+}
+
+.modal-link {
+  color: var(--primary-color);
+  cursor: pointer;
+  display: inline;
+}
+
+/* Utility Classes */
+.m-1 {
+  margin:0.5em;
+}
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.mb-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.gap-2 {
+  gap: 2em;
+}
+
+.gap-1 {
+  gap: 1em;
+}
+
+.gap-sm {
+  gap: 0.5em;
+}
+
+/* Toastify Custom CSS */
+.Toastify__toast-body{
+  text-align: center;
+}
+
+.Toastify__toast-container{
+  z-index: 10010 !important;
+}
+
+/* PWA Install Btn */
+.PwaContainer{
+  justify-content: space-evenly;
+  gap: 3em;
+  color: #000;
+}
+
+.PwaContainer .PwaBtn{
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1em;
+  padding: 0.2em 0.6em;
+  gap: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 534px){
+  .section {
+    display: flex;
+    width: 100%;
+    margin-top: 3em;
+  }
+
+  .Toastify__toast-container{
+    transform: scale(0.85) !important;
+    margin-bottom: 3em !important;
+  }
+}
+
+/* Custom ScrollBar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  /* background-color: rgba(128, 128, 128, 0.1); */
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: rgba(30, 137, 245, 1); */
+  /* background: var(--primary-gradient); */
+  background-color: var(--light-grey);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: var(--light-grey);
+} */

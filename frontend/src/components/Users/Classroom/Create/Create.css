@@ -1,0 +1,154 @@
+.CreateClass-container{
+  width: 100%;
+  position: relative;
+  margin: 2em;
+}
+
+.CreateClass-Header{
+  margin-top: 1em;
+  color: var(--primary-color);
+}
+
+.CreateClass-Main{
+  padding: 1em;
+  margin: 1.5em 0 0.06em 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px 0px rgba(214, 214, 214, 0.5);
+}
+
+.CreateClass-form{
+  gap: 2em;
+  margin: 2.5em 5em;
+}
+
+.CreateClass-SelectUsers {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px 0px rgba(214, 214, 214, 0.5);
+  margin-top: 1em;
+  scroll-behavior: smooth;
+}
+
+.CreateClass-formRow{
+  display: flex;
+  gap: 4em;
+  width: 100%;
+}
+
+/* .CreateClass-formRow .MuiFormControl-root.TextInput{
+  width: 350px;
+} */
+
+/* .CreateClass-formRow .MuiFormControl-root.SelectMenu{
+  min-width: 350px;
+} */
+
+.CreateClass-formRow .MuiFormControl-root.SelectMenu label{
+  top: -6px;
+}
+
+.CreateClass-form .MuiFormControl-root.SelectMenu.Mr{
+  width: 100%;
+}
+
+.CreateClass-SelectUsers{
+  /* border-top: 2px solid rgb(189, 189, 189); */
+  padding: 1em;
+}
+
+.CreateClass-SelectUsers h2{
+  color: var(--text-color);
+  margin-bottom: 1em;
+}
+
+.CreateClass-SelectUsers .users-main{
+  margin: 0;
+}
+
+.CreateClass-SelectUsers .users-main .users-searchBar{
+  width: 100%;
+}
+
+.CreateClass-SelectUsers .users-main .users-table-wrapper .CreateClass-UserCheckbox{
+  padding: 0;
+  width: 10px;
+}
+
+.CreateClass-form .classroom-submitBtn .btn-green{
+  font-size: 1em;
+  min-width: 5em;
+  color: #fff;
+}
+
+.CreateClass-container .Delete-class{
+  /* background-color: rgba(221, 25, 25, 0.05); */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px 0px rgba(214, 214, 214, 0.5);
+  margin-top: 1em;
+  padding: 1em; 
+} 
+
+.CreateClass-container .Delete-class h2{
+  color: var(--strong-red);
+}
+
+.CreateClass-container .Delete-class p{
+  margin: 0.5em 2em;
+  margin-top: 1em;
+  color: var(--strong-red);
+}
+
+.CreateClass-container .Delete-class p span{
+  color: #000;
+}
+
+.CreateClass-container .Delete-class .Delete-form{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 1em 2em;
+}
+.CreateClass-container .Delete-class .Delete-form input{
+  width: 15em;
+  padding: 0.5em; 
+  font-size: 1em;
+  outline: none;
+}
+
+.CreateClass-container .Delete-class .Delete-form input::placeholder{
+  color: #ccc;
+}
+
+.CreateClass-container .Delete-class .Delete-form .btn-outlined-red{
+  width: 110px;
+}
+
+.CreateClass-container .current-students-container h2{
+  color: var(--text-color);
+}
+
+.CreateClass-container .classroom-btn-wrapper {
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.CreateClass-container .current-students-container .current-students-delete svg{
+  padding: 0.2em;
+  border-radius: 100%; 
+  transition: 0.2s ease-in-out;
+}
+
+.CreateClass-container .current-students-container .current-students-delete svg:hover{
+  background-color: var(--strong-red);
+  color: #fff !important;
+}
+
+.CreateClass-container .classroom-btn-wrapper {
+  justify-content: space-between;
+}
+
+.CreateClass-container .classroom-promote .demote:hover svg{
+  fill: #fff;
+}

@@ -1,0 +1,37 @@
+.notFound-container{
+    background-color: #fff;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.notFound-container .nav{
+    width: 100%;
+    top: 0;
+}
+
+.notFound-Img{
+    background-color: rgba(255, 255, 255, 1);
+    width: 500px;
+    aspect-ratio: 1/1;
+    margin-top: -2em;
+    border-radius: 50%;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.notFound-container .notFound-Img h3 {
+    color: rgb(99, 99, 99);
+    font-size: 2em;
+    margin-top: -2em;
+}
+
+/* MOBILE CSS */
+@media (max-width: 534px){
+    .notFound-container{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+}

@@ -1,0 +1,176 @@
+.users-main {
+  margin: 2em;
+  width: 100%;
+  position: relative;
+}
+
+.users-main.student-main{
+  margin: 2em;
+  margin-top: 3em;
+  width: 100%;
+  position: relative;
+}
+
+.users-table-wrapper {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 1em;
+  box-shadow: 0px 2px 6px 0px rgb(243, 243, 243);
+}
+
+.users-table-wrapper .thead th {
+  padding: 0.75em;
+  background: var(--grey-bg);
+}
+
+.users-table-wrapper td {
+  padding: 1.25em;
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+
+.users-table-wrapper .users-table-row {
+  border: 1px solid var(--grey-bg);
+}
+
+.users-table-row td{
+  text-align: center;
+}
+
+.users-table-wrapper .users-table-row .eligible {
+  color: var(--strong-green);
+  gap: 0.3em;
+}
+
+.users-table-wrapper .users-table-row .not-eligible {
+  color: var(--strong-red);
+  gap: 0.3em;
+}
+
+.users-table-row .users-details a{
+  color: var(--primary-color);
+}
+
+.userinfo-container .userinfo-details-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.users-main .users-Filter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  position: relative;
+}
+
+.users-HallticketBtn{
+  width: 14em;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+
+.users-HallticketBtn .btn-outlined{
+  gap: 0.5em;
+}
+
+.users-HallticketBtn .hallticket-disabled {
+  color: #ccc;
+  border: 1px solid #ccc;
+  /* pointer-events: none; */
+  /* cursor: disabled; */
+}
+
+.users-HallticketBtn .hallticket-disabled:hover{
+  background-color: #fff;
+}
+
+.users-HallticketBtn .users-btnLoader{
+  min-width: 13em;
+  height: 2.4em;
+  border-radius: 4px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.users-eligibilityBtn{
+  gap: 1em;
+}
+
+.users-eligibleBtn{
+  gap: 0.5em;
+  padding: 0.3em 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--strong-green);
+  width: 125px;
+}
+
+.users-eligibleContainer{
+  width: 125px;
+}
+
+.users-eligibleTxt{
+  gap: 0.5em;
+  padding: 0.3em 0;
+  color: var(--strong-green);
+}
+
+.users-notEligible{
+  color: var(--strong-red);
+  border: 1px solid var(--strong-red);
+  border-radius: 3px;
+  margin-left: 2em; 
+  cursor: pointer;
+}
+
+.users-notEligible:hover{
+  color: #fff;
+  background-color: var(--strong-red);
+  border-radius: 3px;
+}
+
+.users-searchBar{
+  background-color: rgb(253, 253, 253);
+  padding: 0.2em 1em;
+  border-radius: 4px;
+  border: 1px solid rgb(226, 226, 226);
+  color: var(--text-color);
+  max-width: 600px;
+}
+
+.users-searchBar input{
+  height: 2.5em;
+  width: 100%;
+  min-width: 160px;
+  text-align: center;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.users-searchBar input::placeholder {
+  color: rgb(199, 199, 199);
+}
+
+.users-facultySub{
+  color: var(--primary-color) !important;
+  cursor: pointer;
+}
+
+.classroom-student-select-header th{
+  background-color: rgb(250, 250, 250) !important;
+}
+
+.classroom-student-select-header{
+  border: 1px solid rgb(230, 230, 230);
+}
+
+/* StudentUsers.js CSS */
+.users-Filter .edit-container{
+  margin-bottom: 5px;
+}

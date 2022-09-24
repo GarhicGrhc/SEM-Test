@@ -1,0 +1,58 @@
+.assignEvaluator-container {
+  position: relative;
+  width: 100vw;
+  margin: 0 2em;
+}
+
+.assignEvaluator-container .assign-Filters {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 3.5em 0 1.5em 0;
+}
+
+.filter-list .filterSearch-SelectInput label {
+  background-color: rgb(253, 253, 253);
+  padding-right: 0.3em;
+  top: -0.5em;
+}
+
+.assignFaculty-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 2px 6px 0px rgb(243, 243, 243);
+}
+
+.assignFaculty-table th {
+  background-color: var(--grey-bg);
+  padding: 0.5em 0;
+}
+
+.assignFaculty-table td {
+  padding: 0.5em 0;
+  border-bottom: 1px solid var(--grey-bg);
+}
+
+.assignFaculty-avatar img {
+  border-radius: 50%;
+}
+
+.assignFaculty-row .EvaluatorOrder {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1em;
+}
+
+.assignFaculty-row .EvaluatorOrder button {
+  padding: 0.4em 0.8em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+  font-size: 0.9em;
+  box-shadow: 1px 1px 10px 0px rgba(145, 145, 145, 0.5);
+  /* transform: skew(20deg); */
+}
